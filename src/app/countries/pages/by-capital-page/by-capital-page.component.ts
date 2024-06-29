@@ -18,9 +18,7 @@ constructor(private countriesService: CountriesService){
   this.countriesService.searchCapital(term)
   .subscribe(countries => {
     this.countries = countries;
-
   });
-
   }
 
 }
