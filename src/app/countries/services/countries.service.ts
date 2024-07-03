@@ -18,7 +18,6 @@ return this.http.get<Country[]> (url)
   catchError (() => of([])),
   delay(2000),
   );
-
   }
 
 
